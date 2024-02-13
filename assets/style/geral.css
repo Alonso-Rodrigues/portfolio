@@ -124,7 +124,6 @@ footer a:hover {
     height: 50px;
     width: 50px;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
     border-radius: 15px;
     border: 0.03mm ridge #f0ffff;
@@ -143,11 +142,12 @@ footer a:hover {
     background-image: url(../img/github.png);
     min-height: 50px;
     min-width: 50px;
-
+    background-size: 190%;
 }
 
 #linkedin {
     background-image: url(../img/linkedin.png);
+    background-size: cover;
     background-position: center;
     background-color: #f0ffff;
 }
