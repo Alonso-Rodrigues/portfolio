@@ -90,24 +90,25 @@ form button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 12%;
-    width: 15%;
+    height: 9%;
+    width: 16%;
     color: #683c25;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 800;
     text-shadow: 0px 0px 5px #ffffff;
     background: rgba(61, 61, 61, 0.3);
-    border: 0.5mm ridge rgba(255, 255, 255, 0.6);
+    border: 0.5mm ridge rgba(248, 247, 247, 0.5);
     border-radius: 10px;
     margin: 20px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
     margin-top: 6%;
+    box-shadow: rgba(255, 254, 254, 0.50) 0px 0px 5px;
 }
 
 form button:hover {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #f0ffff;
     text-decoration: none;
     text-shadow: 1px 1px 3px #000000;
@@ -123,6 +124,7 @@ form button:hover {
     main {
         min-height: 100%;
         min-width: 100%;
+        margin: 13%;
     }
 
     #section_contact {
@@ -140,7 +142,8 @@ form button:hover {
     }
 
     form button {
-        min-width: 50%;
+        height: 8%;
+        width: 50%;
     }
 }
 
@@ -190,8 +193,6 @@ form button:hover {
     }
 
     form button {
-        min-width: 20%;
+        /* min-width: 20%; */
     }
 }
-
-
