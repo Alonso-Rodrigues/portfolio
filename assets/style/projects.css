@@ -26,7 +26,8 @@ main {
 #darul,
 #bjj,
 #loc,
-#advergame {
+#advergame,
+#mvc {
     height: 60%;
     width: 60%;
     display: flex;
@@ -50,7 +51,8 @@ main {
 #darul a,
 #bjj a,
 #loc a,
-#advergame a {
+#advergame a,
+#mvc a {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -61,7 +63,8 @@ main {
 #darul img,
 #bjj img,
 #loc img,
-#advergame img {
+#advergame img,
+#mvc img {
     background-color: #000000;
     background-size: 100%;
     max-height: 150px;
@@ -74,7 +77,8 @@ main {
 #darul img:hover,
 #bjj img:hover,
 #loc img:hover,
-#advergame img:hover {
+#advergame img:hover,
+#mvc img:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 20px #f0ffff;
 }
@@ -82,7 +86,8 @@ main {
 #darul p,
 #bjj p,
 #loc p,
-#advergame p {
+#advergame p,
+#mvc p {
     max-height: 300px;
     max-width: 600px;
     display: flex;
