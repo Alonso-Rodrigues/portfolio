@@ -136,7 +136,8 @@ main {
     #darul,
     #bjj,
     #loc,
-    #advergame {
+    #advergame,
+    #mvc {
         background-color: transparent;
         box-shadow: none;
         margin: 5%;
@@ -145,7 +146,8 @@ main {
     #bjj img,
     #darul img,
     #loc img,
-    #advergame img {
+    #advergame img,
+    #mvc img {
         min-height: 80%;
         min-width: 80%;
         border-radius: 16%;
@@ -155,7 +157,8 @@ main {
     #bjj img:hover,
     #darul img:hover,
     #loc img:hover,
-    #advergame img :hover {
+    #advergame img :hover,
+    #mvc img :hover {
         transform: scale(1.1);
         box-shadow: 0px 0px 20px #f0ffff;
     }
@@ -163,7 +166,8 @@ main {
     #darul p,
     #bjj p,
     #loc p,
-    #advergame p {
+    #advergame p,
+    #mvc p {
         display: none;
     }
 }
@@ -178,7 +182,8 @@ main {
     #darul,
     #bjj,
     #loc,
-    #advergame {
+    #advergame,
+    #mvc {
         min-height: 100%;
         min-width: 90%;
         margin: 2%;
@@ -188,7 +193,8 @@ main {
     #bjj img,
     #darul img,
     #loc img,
-    #advergame img {
+    #advergame img,
+    #mvc img {
         max-height: 40%;
         max-width: 40%;
         border-radius: 16%;
@@ -198,7 +204,8 @@ main {
     #bjj img:hover,
     #darul img:hover,
     #loc img:hover,
-    #advergame img :hover {
+    #advergame img :hover,
+    #mvc img :hover {
         transform: scale(1.1);
         box-shadow: 0px 0px 20px #f0ffff;
     }
@@ -206,7 +213,8 @@ main {
     #darul p,
     #bjj p,
     #loc p,
-    #advergame p {
+    #advergame p,
+    #mvc p {
         display: none;
     }
 }
@@ -222,7 +230,8 @@ main {
     #darul,
     #bjj,
     #loc,
-    #advergame {
+    #advergame,
+    #mvc {
         height: 100%;
         width: 80%;
     }
@@ -230,7 +239,8 @@ main {
     #bjj img,
     #darul img,
     #loc img,
-    #advergame img {
+    #advergame img,
+    #mvc img {
         height: 140px;
         width: 140px;
         transition: transform 0.5s ease-in-out;
@@ -239,7 +249,8 @@ main {
     #bjj img:hover,
     #darul img:hover,
     #loc img:hover,
-    #advergame img :hover {
+    #advergame img:hover,
+    #mvc img:hover {
         transform: scale(1.1);
         box-shadow: 0px 0px 20px #f0ffff;
     }
@@ -247,7 +258,8 @@ main {
     #darul p,
     #bjj p,
     #loc p,
-    #advergame p {
+    #advergame p,
+    #mvc p {
         font-size: 1.5rem;
     }
 }
